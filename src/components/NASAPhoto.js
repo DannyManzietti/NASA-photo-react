@@ -34,8 +34,8 @@ const NASAPhoto = props => {
             dayAriaLabel="dayLabel"
             value={date}
           />
-          <h4>{photoData.title}</h4>
-          <h6>{photoData.date}</h6>
+          <h3>{photoData.title}</h3>
+          <h3>{photoData.date}</h3>
           <div>
             <img src={photoData.url} alt="NASA Photo of the day" />
           </div>
